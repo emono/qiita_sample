@@ -4,7 +4,7 @@ import 'package:qiita_sample/data/entities/room_entity.dart';
 import 'package:retrofit/retrofit.dart';
 import 'package:dio/dio.dart';
 
-part 'room/room_client.g.dart';
+part 'room_client.g.dart';
 
 @RestApi(baseUrl: "http://localhost:3000/api/v1/")
 abstract class RoomClient {
@@ -17,5 +17,5 @@ abstract class RoomClient {
   }
 
   @GET("rooms/1")
-  Future<Room> getRoom();
+  Future<RoomEntity> getRoom();
 }
