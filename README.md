@@ -1,6 +1,12 @@
 # qiita_sample
+- https://qiita.com/toda-axiaworks/items/fa2f77562bb2c0b7a158
+## 事前準備
+- https://qiita.com/toda-axiaworks/items/fa2f77562bb2c0b7a158
 
-A new Flutter application.
+```bash
+flutter pub get
+flutter packages pub run build_runner build --delete-conflicting-outputs
+```
 
 ## Getting Started
 
