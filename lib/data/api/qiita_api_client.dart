@@ -15,6 +15,6 @@ abstract class QiitaApiClient {
     return QiitaApiClient(dio);
   }
 
-  @GET("/tags/flutter/items?per_page=50")
+  @GET("/tags/flutter/items?per_page=10")
   Future<List<QiitaInfo>> getFlutterArticles();
 }
