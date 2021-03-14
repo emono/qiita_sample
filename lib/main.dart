@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:qiita_sample/screens/article/article_screen.dart';
+// import 'package:qiita_sample/screens/article/article_screen.dart';
+import 'package:qiita_sample/screens/article/room_screen.dart';
 
 void main() => runApp(
       ProviderScope(
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ArticleScreen(),
+      home: RoomScreen(),
     );
   }
 }
