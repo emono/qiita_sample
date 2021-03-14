@@ -11,5 +11,5 @@ abstract class RoomState with _$RoomState {
   const factory RoomState({@Default([]) List<RoomEntity> rooms}) = _RoomState;
 
   factory RoomState.fromJson(Map<String, dynamic> json) =>
-      _$RoomStateFromJson(json);
+    _$RoomStateFromJson(json);
 }
