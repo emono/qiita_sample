@@ -18,4 +18,7 @@ abstract class RoomClient {
 
   @GET("rooms/1")
   Future<RoomEntity> getRoom();
+
+  @GET("rooms")
+  Future<List<RoomEntity>> listRooms();
 }
